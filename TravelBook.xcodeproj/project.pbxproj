@@ -14,6 +14,7 @@
 		7FE752D628A5977E0060CA3E /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FE752D428A5977E0060CA3E /* TravelBook.xcdatamodeld */; };
 		7FE752D828A5977E0060CA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE752D728A5977E0060CA3E /* Assets.xcassets */; };
 		7FE752DB28A5977E0060CA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE752D928A5977E0060CA3E /* LaunchScreen.storyboard */; };
+		7FE752E528A5AAFB0060CA3E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE752E428A5AAFB0060CA3E /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7FE752D728A5977E0060CA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FE752DA28A5977E0060CA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FE752DC28A5977E0060CA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE752E428A5AAFB0060CA3E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7FE752D928A5977E0060CA3E /* LaunchScreen.storyboard */,
 				7FE752DC28A5977E0060CA3E /* Info.plist */,
 				7FE752D428A5977E0060CA3E /* TravelBook.xcdatamodeld */,
+				7FE752E428A5AAFB0060CA3E /* ListViewController.swift */,
 			);
 			path = TravelBook;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				7FE752D628A5977E0060CA3E /* TravelBook.xcdatamodeld in Sources */,
 				7FE752D028A5977E0060CA3E /* ViewController.swift in Sources */,
 				7FE752CC28A5977E0060CA3E /* AppDelegate.swift in Sources */,
+				7FE752E528A5AAFB0060CA3E /* ListViewController.swift in Sources */,
 				7FE752CE28A5977E0060CA3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
